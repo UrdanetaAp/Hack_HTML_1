@@ -1,0 +1,389 @@
+@font-face {
+    font-family: info1 ;
+    src: url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+}
+
+
+
+html, body{
+    margin: 0 0 0 0;
+    width: 100%;
+    font-family: info1;
+
+
+}
+
+.circulo{
+    background-color: #7ED957;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vh;
+    padding: 2%;
+    gap: 2%; 
+   justify-content: right;
+}
+
+h1{
+    flex-grow: 1;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+h4{
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+#SM{
+    display: flex;
+    align-items: center;
+    
+}
+
+#Ppal{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45vh;
+    z-index: 2;
+    gap: 8px;
+    font-size: 60px;
+
+}
+
+#medio{
+    background-color: #00BF63;
+    text-align: center;
+    color: white;
+    width: 70vh;
+    height: 5%;
+    text-align: left;
+    padding-left: 15%;
+}
+
+#large{
+    background-color: #00BF63 ;
+    color: white;
+    width: 100vh;
+    height: 5%;
+    text-align: left;
+    padding-left: 15%;
+
+}
+
+
+#ubicacion2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90vh;
+    z-index: 2;
+    gap: 8px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#nl{
+    background-color: black ;
+    color: white;
+    width: 90vh;
+    padding-left: 15%;
+}
+
+#nm{
+    background-color: black ;
+    color: white;
+    width: 60vh;
+    padding-left: 15%;
+
+}
+
+
+
+.cont-img{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 20%;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-vineta{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    padding-left: 5%;
+    font-size: 20px;
+    text-align: center;
+    gap: 25%;
+}
+
+p{
+    font-size: 15px;
+}
+
+.vineta{
+width: 40px;
+height: 45px;
+}
+
+.imagen{
+    width: 20%;
+    height: 10%;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00BF63;
+    color: #EEEEEE;
+    text-align: center;
+     font-size: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+     margin-bottom: 10px;
+}
+
+
+
+@media screen and (min-width: 412px) and (max-width: 776px) {
+
+
+    #ubicacion{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 25vh;
+        z-index: 2;
+        font-size: 15px;
+    }
+    #medio{
+        background-color: #00BF63;
+        text-align: center;
+        color: white;
+        width: 15vh;
+        height: 5%;
+        text-align: center;
+    }
+    #large{
+        background-color: #00BF63 ;
+        color: white;
+        width: 30vh;
+        height: 5%;
+        text-align: right; 
+        }
+
+
+
+        #ubicacion2{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 40vh;
+            z-index: 2;
+            font-size: 8px;
+            
+        }
+
+        h2{
+            font-size: 30px;
+        }
+
+        h4{
+            font-size: 10pxx;
+        }
+
+        #nl{
+            background-color: black ;
+            color: white;
+            width: 20vh;
+        }
+        
+        #nm{
+            background-color: black ;
+            color: white;
+            width: 30vh;
+        
+        }
+    
+        .contenedor-vineta{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            
+            font-size: 0px;
+            text-align: center;
+            gap: 10%;
+        }
+        
+        p{
+            font-size: 0px;
+        }
+
+        .vineta{
+            width: 0px;
+            height: 0px;
+            }
+
+         
+            
+            .pie{
+                display: flex;
+                justify-content: space-between;
+                background-color: #00BF63;
+                color: #EEEEEE;
+                text-align: center;
+                 font-size: 15px;
+                padding-left: 5%;
+                padding-right: 5%;
+                 margin-bottom: 10px;
+            }
+
+}
+
+@media screen and (min-width: 777px) and (max-width: 1200px) {
+
+
+    #ubicacion{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30vh;
+        z-index: 2;
+        gap: 8px;
+        font-size: 30px;
+    }
+    #medio{
+        background-color: #00BF63;
+        text-align: center;
+        color: white;
+        width: 40vh;
+        height: 5%;
+        text-align: center;
+    }
+    #large{
+        background-color: #00BF63 ;
+        color: white;
+        width: 70vh;
+        height: 5%;
+        text-align: right; 
+        }
+
+
+
+        #ubicacion2{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50vh;
+            z-index: 2;
+            gap: 8px;
+            font-size: 20px;
+            text-align: justify;
+        }
+    
+        .contenedor-vineta{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-right: 8%;
+        
+            font-size: 15px;
+            text-align: center;
+            gap: 10%;
+        }
+        
+        p{
+            font-size: 12px;
+        }
+
+        .vineta{
+            width: 25px;
+            height: 25px;
+            }
+
+         
+            
+            .pie{
+                display: flex;
+                justify-content: space-between;
+                background-color: #00BF63;
+                color: #EEEEEE;
+                text-align: center;
+                 font-size: 15px;
+                padding-left: 5%;
+                padding-right: 5%;
+                 margin-bottom: 10px;
+            }
+
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+
+    #ubicacion{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30vh;
+        z-index: 2;
+        gap: 8px;
+        font-size: 40px;
+    }
+   
+    #ubicacion2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60vh;
+        z-index: 2;
+        gap: 8px;
+        font-size: 25px;
+        text-align: justify;
+    }
+
+
+
+    .contenedor-vineta{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding-right: 8%;
+        font-size: 20px;
+        text-align: center;
+        gap: 10%;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+
+    .vineta{
+        width: 25px;
+        height: 25px;
+        }
+
+    
+}
+
+

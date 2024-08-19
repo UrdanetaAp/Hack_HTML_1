@@ -1,0 +1,43 @@
+.body{
+width: 100%;
+margin: 4 3 3 3;
+height: 100%;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.Imagenes{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 40%;
+    left: 25%;
+}
+
+.imag{
+    margin-left: 1%;
+    margin-top: 3%;
+    width: 15%;
+    height: 30%;
+}
+
+
+.lineas{
+    display: flex;
+    margin-top: 2%;
+    background-color: #FFBD59;
+    height: 2vw;
+    z-index: -1;
+
+}.linea{
+margin-top: 8%;
+
+}

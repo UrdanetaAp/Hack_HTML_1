@@ -1,0 +1,40 @@
+:root{
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+.padre{
+float: left;
+ width: 100%;
+ height: 100%;
+}
+
+.caja1 {
+    background-color: #93B5C9;
+    width: 100vw;
+    height: 12vh;
+    
+}
+
+.caja2{
+    background-color: #AB2849;
+    width: 100vw;
+    height: 28vh;
+}
+
+.caja{
+    background-color: #AB2849;
+    width: 80vw;
+    height: 12vh;
+    margin-top: 2vh;
+    clear: both;
+}
+
+.under{
+    background-color: #AB2849;
+    width: 90vw;
+    height: 12vh;
+    margin-top: 2vh;
+    margin-left: 5%;
+
+}
